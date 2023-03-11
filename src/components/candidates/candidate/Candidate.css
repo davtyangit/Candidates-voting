@@ -1,0 +1,44 @@
+.candidate_img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.candidate_img_voted {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  opacity: 50%;
+  z-index: 2;
+}
+
+.ables {
+  padding: 4px 13px;
+  margin: 15px 0;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background-color: royalblue;
+  color: white;
+  border-radius: 7px;
+}
+
+.candidate_name-surname-middlenam {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.disables {
+  padding: 4px 13px;
+  margin: 15px 0;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background-color: rgba(0, 128, 0, 0.212);
+  color: white;
+  border-radius: 7px;
+}
